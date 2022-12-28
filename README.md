@@ -1,6 +1,29 @@
 # Hernoem
 
+Simple tool to rename audio files by tags.
+
+# Installation
+
+To install, download the correct binary for your system at the releases
+section.
+
+# Usage
+
+Usage via the command file. For possible options, use the `-h` flag.
+
+## Supported types
+
+Currently, the following file types are supported
+
+- mp3
+- mp4
+- m4a
+- flac
+
 ## Format
+
+A format can be specified by the user, the following keys would result to the
+following tags of the audio.
 
 | Key  | Result to    | Specialties                       |
 |------|--------------|-----------------------------------|
