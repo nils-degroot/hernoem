@@ -117,6 +117,7 @@ where
 {
     let path: PathBuf = path.into();
 
+    info!("Start working on {:?}", path);
     let extension = match path.extension().and_then(|e| e.to_str()) {
         Some(e) => e,
         None => {

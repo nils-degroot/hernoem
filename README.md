@@ -15,7 +15,7 @@ Usage via the command file. For possible options, use the `-h` flag.
 
 Currently, the following file types are supported
 
-- mp3
+- mp3 (only with id3v2 tags)
 - mp4
 - m4a
 - flac
