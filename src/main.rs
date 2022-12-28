@@ -19,6 +19,7 @@ lazy_static::lazy_static! {
 }
 
 #[derive(Debug, Parser)]
+/// Simple program to rename audio files using metadata.
 struct Args {
     /// Directory/File to rename [default: "cwd"]
     #[arg(long, short)]
